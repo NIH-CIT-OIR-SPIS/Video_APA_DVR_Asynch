@@ -2,12 +2,19 @@
 
 ## Collaborators
 Dr. Ghadi Salem, PhD, SPIS, NIH
+
 Noah Cubert, Engineering Inter, NIH, NBIB
+
 Niall Cope, Biomedical Engineer Research Fellow, FDA
+
 Joshua Lehman
+
 Simeon Anfinrud
+
 Ryan Rinker
+
 Yoni Pederson
+
 SCORHE (System for Continuous Observation of Rodents in Home-cage Environment) 
 is a system designed to monitor and analyze the behavior of animals in a
 monitored environment, complete with video acquisition, editing and annotation
@@ -204,12 +211,5 @@ Now that you have all four RPi's setup with the software, as well as the PC set 
 
 
 
-## Authors
-
-- Joshua "Tabs not spaces" Lehman
-- Simeon "Thread everything" Anfinrud
-- Ryan "C is better" Rinker
-- Yoni "I angered IT again" Pedersen
-- Noah Cubert
 
 ### https://scorhe.nih.gov
