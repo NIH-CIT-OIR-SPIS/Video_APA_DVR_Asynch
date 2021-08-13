@@ -1,0 +1,12 @@
+# PyCharm
+.idea
+
+**/build
+**/dist
+**/experiments
+**/Output
+**/__pycache__
+
+# old VCS stuff
+.svn/
+*.svn/
