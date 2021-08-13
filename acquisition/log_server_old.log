@@ -1,0 +1,54 @@
+INFO:scorhe_server.server:Starting server...
+INFO:root:Called sendToAll however values are empty
+INFO:root:Called sendToAll however values are empty
+INFO:root:Called sendToAll however values are empty
+INFO:root:Called sendToAll however values are empty
+INFO:root:Called sendToAll however values are empty
+INFO:root:Called sendToAll however values are empty
+INFO:root:Called sendToAll however values are empty
+INFO:root:Called sendToAll however values are empty
+INFO:root:Called sendToSelects however values are empty
+INFO:root:Called sendToSelects however values are empty
+INFO:root:Called sendToAll however values are empty
+INFO:root:Called sendToAll however values are empty
+INFO:root:Called sendToAll however values are empty
+INFO:root:Called sendToAll however values are empty
+INFO:root:Called sendToAll however values are empty
+INFO:root:Called sendToAll however values are empty
+INFO:root:Called sendToAll however values are empty
+INFO:root:Called sendToAll however values are empty
+INFO:root:Called sendToSelects however values are empty
+INFO:root:Called sendToSelects however values are empty
+INFO:scorhe_server.gpac:Scanning for files to convert...
+INFO:root:Called sendToAll however values are empty
+INFO:scorhe_server.gpac:Converting 0 files...
+INFO:scorhe_server.gpac:Conversion finished.
+INFO:scorhe_server.server:Controller shut down
+INFO:scorhe_server.server:Server shut down
+INFO:scorhe_server.server:Starting server...
+INFO:root:Called sendToAll however values are empty
+INFO:root:Called sendToAll however values are empty
+INFO:root:Called sendToAll however values are empty
+INFO:root:Called sendToAll however values are empty
+INFO:root:Called sendToAll however values are empty
+INFO:root:Called sendToAll however values are empty
+INFO:root:Called sendToAll however values are empty
+INFO:root:Called sendToAll however values are empty
+INFO:root:Called sendToSelects however values are empty
+INFO:root:Called sendToSelects however values are empty
+INFO:root:Called sendToAll however values are empty
+INFO:root:Called sendToAll however values are empty
+INFO:root:Called sendToAll however values are empty
+INFO:root:Called sendToAll however values are empty
+INFO:root:Called sendToAll however values are empty
+INFO:root:Called sendToAll however values are empty
+INFO:root:Called sendToAll however values are empty
+INFO:root:Called sendToAll however values are empty
+INFO:root:Called sendToSelects however values are empty
+INFO:root:Called sendToSelects however values are empty
+INFO:scorhe_server.gpac:Scanning for files to convert...
+INFO:root:Called sendToAll however values are empty
+INFO:scorhe_server.gpac:Converting 0 files...
+INFO:scorhe_server.gpac:Conversion finished.
+INFO:scorhe_server.server:Controller shut down
+INFO:scorhe_server.server:Server shut down

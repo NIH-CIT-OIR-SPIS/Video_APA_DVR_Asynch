@@ -1,0 +1,30 @@
+{
+    "autogain": false,
+    "camMap": {
+        "camera": {},
+        "name": {}
+    },
+    "color": false,
+    "compression": 1,
+    "dir": "",
+    "fps": 30,
+    "gain": 3,
+    "iso": "0",
+    "len": 2,
+    "rotation": {
+        "default": 0,
+        "camera": {}
+    },
+    "vflip": {
+        "default": true,
+        "camera": {}
+    },
+    "zoom": {
+        "default": [0, 0, 1296, 972],
+        "camera": {}
+    },
+    "pushUpdates": false,
+    "grouptype": "MUFFIN",
+    "active cams": [],
+    "baseDirectory": ""
+}

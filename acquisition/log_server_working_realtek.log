@@ -1,0 +1,24 @@
+INFO:scorhe_server.server:Port: 24461
+INFO:scorhe_server.server:clients line 683: {'Unregistered': {}, 'Camera': {}}
+INFO:scorhe_server.server:Starting server...
+INFO:scorhe_server.server:register was called 
+INFO:scorhe_server.server:client type (line 1713): Unregistered
+INFO:scorhe_server.server:register was called 
+INFO:scorhe_server.server:client type (line 1713): Unregistered
+INFO:scorhe_server.server:register was called 
+INFO:scorhe_server.server:client type (line 1713): Camera
+INFO:scorhe_server.server:Args in CameraClient: ('1.0.4', '??Unknown??', '9e6b8f', '??Unknown??', '??Unknown??')
+INFO:scorhe_server.server:Camera: 9e6b8f
+INFO:scorhe_server.server:register was called 
+INFO:scorhe_server.server:client type (line 1713): Camera
+INFO:scorhe_server.server:Args in CameraClient: ('1.0.4', '??Unknown??', 'ab021a', '??Unknown??', '??Unknown??')
+INFO:scorhe_server.server:Camera: ab021a
+ERROR:scorhe_server.server:('192.168.1.100', 39688): framerate camera 60
+ERROR:scorhe_server.server:('192.168.1.101', 59022): framerate camera 60
+ERROR:scorhe_server.server:('192.168.1.100', 39688): shutterspeed 8333
+ERROR:scorhe_server.server:('192.168.1.101', 59022): shutterspeed 8333
+INFO:scorhe_server.gpac:Scanning for files to convert...
+INFO:scorhe_server.gpac:Converting 0 files...
+INFO:scorhe_server.gpac:Conversion finished.
+INFO:scorhe_server.server:Controller shut down
+INFO:scorhe_server.server:Server shut down

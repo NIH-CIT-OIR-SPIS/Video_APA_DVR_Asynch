@@ -1,0 +1,6 @@
+# These are the instructions based on what was found at https://gpac.wp.imt.fr/tag/mp4box/
+
+# Note that MP4Box executable can be found by going to your root directory and typing:
+
+>$: cd gpac/bin/gcc/
+>$: ls
