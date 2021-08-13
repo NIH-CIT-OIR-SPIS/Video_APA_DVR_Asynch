@@ -1,5 +1,8 @@
 # SCORHE Video Acquisition Playback and Annotation v1.0.1 for Windows 10 and Linux
 
+## Link to Paper
+https://doi.org/10.1016/j.ohx.2020.e00160
+
 ## Collaborators
 Dr. Ghadi Salem, PhD, SPIS, NIH
 
