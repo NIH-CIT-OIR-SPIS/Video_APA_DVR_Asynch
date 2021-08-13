@@ -3,7 +3,7 @@
 ## Collaborators
 Dr. Ghadi Salem, PhD, SPIS, NIH
 
-Noah Cubert, Engineering Inter, NIH, NBIB
+Noah Cubert, Engineering Intern, NIH, NBIB
 
 Niall Cope, Biomedical Engineer Research Fellow, FDA
 
