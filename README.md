@@ -1,12 +1,19 @@
+# SCORHE Video Acquisition Playback and Annotation v1.0.1 for Windows 10 and Linux
+
+## Collaborators
+Dr. Ghadi Salem, PhD, SPIS, NIH
+Noah Cubert, Engineering Inter, NIH, NBIB
+Niall Cope, Biomedical Engineer Research Fellow, FDA
+Joshua Lehman
+Simeon Anfinrud
+Ryan Rinker
+Yoni Pederson
 SCORHE (System for Continuous Observation of Rodents in Home-cage Environment) 
 is a system designed to monitor and analyze the behavior of animals in a
 monitored environment, complete with video acquisition, editing and annotation
 utilities.
 
-# SCORHE Video Acquisition Playback and Annotation v1.0.1 for Windows 10 and Linux as of 7/9/2020
-
-
-# (*NOTE: this version is for monitoring mice and features synchronous recording and as of yet does not feature the asynchronous recording)
+#(*NOTE: this version is for monitoring mice and features synchronous recording and as of yet does not feature the asynchronous recording)
 
 
 # HARDWARE NEEDED  
