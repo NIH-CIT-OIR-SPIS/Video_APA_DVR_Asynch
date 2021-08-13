@@ -13,7 +13,7 @@ utilities.
 - 4 Raspberry Pi 3B (RPi)  (You can also utilize RPi 4B however different instructions may apply for display and microSD card requirments)
 - 4 NoIR Camera V2
 - Computer with Ethernet capabilities
-- 1 or 2 Gigabit Routers (at least 7 open ethernet ports, one for each RPi, one for Host PC, and 2 as intermediaries between the two routers)
+- 1 Linksys LRT224 router and more gigabit Routers if need be (at least 7 open ethernet ports, one for each RPi, one for Host PC, and 2 as intermediaries between the two routers)
 - Micro USB power cables (A-Male to Micro-B), with a current supply of at least 2 A (Amps) (possibly more for hooking up NoIR Cameras) or at least 3.5 Amps if using RPi 4B
 - 7 Cat 6 Ethernet cables (depending one whether or not you have 1 or 2 Gigabit routers)
 - USB keyboard and mouse (to connect to a RPi, via USB ports)
