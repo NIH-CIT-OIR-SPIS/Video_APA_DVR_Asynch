@@ -32,7 +32,7 @@ utilities.
 - 7 Cat 6 Ethernet cables (depending one whether or not you have 1 or 2 Gigabit routers)
 - USB keyboard and mouse (to connect to a RPi, via USB ports)
 - HDMI Cable (to connect RPi to display)
-- Display with HDMI capabilities 
+- Display with HDMI capabilities (Or remote in to Raspberry pi's via SSH)
 - 4 microSD cards that are at least 16GB in size however I recommend 32GB as it is not signifficantly more expensive (about a $1 to $2 difference as of 2020) 
      and will work better with later versions of RPi's (such as RPi 4B)
 - An microSD card to SD card adapter
@@ -63,7 +63,6 @@ utilities.
 	C:\Users\[YOUR USERNAME]>
 9. Then type in: '''
  	> pip install numpy==1.15.0
-	> easy_install pip==8.0.1
 	> pip install opencv-python==3.3.0.9
 	> pip install setuptools==18.2
 	> pip install requests==2.23.0
@@ -187,23 +186,28 @@ utilities.
 Now that you have all four RPi's setup with the software, as well as the PC set up we can hook up the ethernet cables.
 	40. Turn off wifi on the host PC
 	41. The only ports that you should be using on the gigabit routers are ones that have numbers next to them and are not WAN or LINK ports
-	42. Have the PC hook up to 1 on the gigabit router. Then hook up RPi's 1, 2, 3 and 4 repectively if you have enough ports on your gigabit router
+	42. Have the PC hook up to 1 on the Linksys 224 gigabit router. Then hook up RPi's 1, 2, 3 and 4 repectively if you have enough ports on your gigabit router
 	43. If you only have 2 gigabit routers hook an ethernet cable as an intermediate between both routers and plug in the rest of the ethernet cables with the RPis
-
+	44. Make sure you only have one ethernet connection connected directly to the computer (if you have multiple ethernet connections on the computer make sure they are clear)
+	45. Make sure the ethernet connection is 'Private' in order to change it go to Settings > Ethernet > [The connected network] > Network Profile and make sure 'Private' is selected. 
+	46. If you still don't get a connection go to Settings > Ethernet > Network Profile and under Related Settings select 'Change Adapter Options'. Then select the ethernet connection port which you are connected to and left click to select 'Diagnose'. If it sees any errors apply fix and shutdown the computer then turn it back on.
+	
 *Note: The RPi 3B's need at least 2 Amps of current each to operate, however 3 Amps is preferred if possible. (The RPi 4B however require a minimum of 3.5 Amps)
 	44. Make sure the NoIR cameras are inserted properly. The blue tab should be facing towards the Ethernet port on the RPis
-
+	46. As of right now the PC must be connected to the Linksys 224 gigabit router, mainly for security reasons. Any other connections to a raspberry pi or another gigabit router are connected through this router. If you wish to add more raspberry pi's to connect you can add another gigabit router and connect it to the linksys router and plug in new raspberry pi's via the new gigabit router.
 
 
 
 # RUNNING THE SYSTEM on Windows
-	45. Type 'cmd' into the Windows search bar and click on the Command Prompt application that shows up.
-	46. Type in:
+	45. Assuming everything is correct you should be able to just go to /VideoAPA_For_Host_PC/acquisition/ and double click on runacqisition.bat (you could also make a shortcut of runacqisition.bat by left clicking and then creating a shortcut to drag to the desktop.
+	46. If you wish you can also run via the command line by typing 'cmd' into the Windows search bar and click on the Command Prompt application that shows up.
+	47. Type in:
 		'''
-		> cd Downloads\VideoAPA-Rep-6-2020\VideoAPA_For_Host_PC\acquisition
+		> cd [DIRECTORY HOLDING FILES]\VideoAPA_For_Host_PC\acquisition\
 		> runacquistion.bat
 		'''
-	47. Make sure to go to Control Panel -> Network and Internet -> View network status and tasks -> Change adapter settings and make sure that you see nothing that shows a virtual machine connection. 
+	48. Make sure to go to Control Panel -> Network and Internet -> View network status and tasks -> Change adapter settings and make sure that you see nothing that shows a virtual machine connection, mainly for security reasons.
+	
 	If you do have one you will need to disable it
 
 #***************IMPORTANT NOTE: Operation Features with visuals can be found on the document attached "SCORHE Video Acquisition User Guide"*************
