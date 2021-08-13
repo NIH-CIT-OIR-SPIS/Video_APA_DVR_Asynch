@@ -1,5 +1,7 @@
 # SCORHE Video Acquisition Playback and Annotation v1.0.1 for Windows 10 and Linux
 
+### Version includes asynchronous video capture
+
 ## Link to Paper
 https://doi.org/10.1016/j.ohx.2020.e00160
 
@@ -23,7 +25,6 @@ is a system designed to monitor and analyze the behavior of animals in a
 monitored environment, complete with video acquisition, editing and annotation
 utilities.
 
-#(*NOTE: this version is for monitoring mice and features synchronous recording and as of yet does not feature the asynchronous recording)
 
 
 # HARDWARE NEEDED  
