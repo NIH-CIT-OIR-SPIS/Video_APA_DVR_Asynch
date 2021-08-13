@@ -1,6 +1,7 @@
 # SCORHE Video Acquisition Playback and Annotation v1.0.1 for Windows 10 and Linux
 
-### Version for asynchronous video capture
+Version for asynchronous video capture, for synchronous video capture please see https://github.com/NIH-CIT-OIR-SPIS/VideoAPA_DVR_Synch
+
 
 ## Link to Paper
 https://doi.org/10.1016/j.ohx.2020.e00160
