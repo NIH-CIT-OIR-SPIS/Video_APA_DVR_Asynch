@@ -55,8 +55,8 @@ utilities.
 4. Go to  https://www.python.org/downloads/release/python-344/ to install python 3.4.4, scroll to bottom and click on Windows x86-64 bit installer and save to your downloads
 	-Click on application and follow directions, remember to set path, Save in C:\Users\Python34\ new directory 
 5. Download the following packages save each of them into C:\Users\Python34
-	- [pygi 3.24.1](https://sourceforge.net/projects/pygobjectwin32/files/?source=navbar)
-	- [PyQt5 5.4.1](https://sourceforge.net/projects/pyqt/files/PyQt5/PyQt-5.4.1/)
+	- [pygi 3.24.1]( https://sourceforge.net/projects/pygobjectwin32/files/?source=navbar )
+	- [PyQt5 5.4.1]( https://sourceforge.net/projects/pyqt/files/PyQt5/PyQt-5.4.1/ )  install the installer .64 exe version 
 
 6. Follow advice given on https://developercommunity.visualstudio.com/content/problem/589489/i-need-the-2010-build-tools-for-visual-studio.html
 	-Download Microsoft Visual Studios 10.0
