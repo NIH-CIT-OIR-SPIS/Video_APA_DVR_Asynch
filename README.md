@@ -68,6 +68,7 @@ utilities.
 	C:\Users\[YOUR USERNAME]>
 9. Then type in: '''
  	> pip install numpy==1.15.0
+ 	> easy_install pip==8.0.1
 	> pip install opencv-python==3.3.0.9
 	> pip install setuptools==18.2
 	> pip install requests==2.23.0
