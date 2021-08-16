@@ -186,7 +186,6 @@ utilities.
 
 
 
-
 # SETTING UP THE SYSTEM
 Now that you have all four RPi's setup with the software, as well as the PC set up we can hook up the ethernet cables.
 	40. Turn off wifi on the host PC
@@ -195,11 +194,20 @@ Now that you have all four RPi's setup with the software, as well as the PC set 
 	43. If you only have 2 gigabit routers hook an ethernet cable as an intermediate between both routers and plug in the rest of the ethernet cables with the RPis
 	44. Make sure you only have one ethernet connection connected directly to the computer (if you have multiple ethernet connections on the computer make sure they are clear)
 	45. Make sure the ethernet connection is 'Private' in order to change it go to Settings > Ethernet > [The connected network] > Network Profile and make sure 'Private' is selected. 
-	46. If you still don't get a connection go to Settings > Ethernet > Network Profile and under Related Settings select 'Change Adapter Options'. Then select the ethernet connection port which you are connected to and left click to select 'Diagnose'. If it sees any errors apply fix and shutdown the computer then turn it back on.
+	46. If you still don't get a connection go to Settings > Ethernet > Network Profile and under Related Settings select 'Change Adapter Options'. Then select the ethernet connection port which you are connected to and left click to select 'Diagnose'. If it sees any errors apply fix and shutdown the computer then turn it back on. Then see if you can change it to Private.
+	47. If you still can't get set the ethernet to 'Private' you will need to search for 'Windows Powershell' and run as administrator. Then type into the command line
+		'''
+		Get-NetConnectionProfile
+		'''
+	    Then make note of the 'Interfaceindex' number then type in:
+	    	'''
+	    
+	   	Set-NetConnectionProfile -InterfaceIndex <REPLACE_WITH_INDEX_NUM> -NetworkCategory Private
+		'''
 	
-*Note: The RPi 3B's need at least 2 Amps of current each to operate, however 3 Amps is preferred if possible. (The RPi 4B however require a minimum of 3.5 Amps)
-	44. Make sure the NoIR cameras are inserted properly. The blue tab should be facing towards the Ethernet port on the RPis
-	46. As of right now the PC must be connected to the Linksys 224 gigabit router, mainly for security reasons. Any other connections to a raspberry pi or another gigabit router are connected through this router. If you wish to add more raspberry pi's to connect you can add another gigabit router and connect it to the linksys router and plug in new raspberry pi's via the new gigabit router.
+*Note: The RPi 3B's need at least 2 Amps of current each to operate, however 3 Amps is preferred if possible. (The RPi 4B however require a minimum of 3.5 Amps)*
+	48. Make sure the NoIR cameras are inserted properly. The blue tab should be facing towards the Ethernet port on the RPis
+	49. As of right now the PC must be connected to the Linksys 224 gigabit router, mainly for security reasons. Any other connections to a raspberry pi or another gigabit router are connected through this router. If you wish to add more raspberry pi's to connect you can add another gigabit router and connect it to the linksys router and plug in new raspberry pi's via the new gigabit router.
 
 
 
