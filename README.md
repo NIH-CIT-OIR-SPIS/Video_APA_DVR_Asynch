@@ -249,12 +249,25 @@ If you wish to setup the Raspberry Pi software manually please follow the instru
 			'''
 			Scroll to the line where you see " #hdmi_force_hotplug=1 " and delete the '#' symbol (****NOTE BE WEARY about doing this as with older RPi's, like RPi 4B, uncommenting this line can cause problems with the hdmi display)
 
-			Scroll to the bottom and type in the following:
-				'''
-				dtoverlay=pi3-disable-bt
-				dtoverlay=pi3-disable-wifi
-				gpu_mem=700
-				'''
+			If you have a raspberry pi 3B
+			Go to the line right above [pi4] text and insert the following
+			```
+			[pi3]
+			dtoverlay=pi3-disable-bt
+			dtoverlay=pi3-disable-wifi
+			gpu_mem=700
+			```
+			Go to line right below [pi4] add:
+			```
+			dtoverlay=disable-bt
+			dtoverlay=disable-wifi
+			gpu_mem=128
+			```
+			Scroll to the bottom and add to the end of the file the following:
+			```
+			start_x=1
+			```
+			
 			Save and exit
 			(*note that this will make it so that automatically the pi cannot be connected to wifi at all or bluetooth, and the only way to reconnect them
 			would be to delete the two lines written above in /boot/config.txt , the gpu_mem allows for more operation of RAM by gpu)
