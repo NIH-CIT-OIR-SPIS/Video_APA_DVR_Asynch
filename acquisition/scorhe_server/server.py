@@ -2180,9 +2180,7 @@ def get_ip_address(ifname: str='wlan0') -> Union[Dict[str, str], List[str]]:
             for line in sp.stdout.read().decode().splitlines():
                 line = line.lstrip().rstrip()
                 print(line)
-                if line.startswith('eth0') and line.find('RUNNING'):
-                    count = 2
-                elif line.startswith('inet') and count == 2:
+                if line.startswith('inet'):
                     data['ipv4'].append(line.rsplit()[1])
                     data['mask'].append(line.rsplit()[3])
                     count = 1
