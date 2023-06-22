@@ -1,4 +1,2 @@
-#Linux executable file created as shortcut to run software
-
-export PYTHONPATH=$PWD
+#!/bin/bash
 python3 launcher.py
