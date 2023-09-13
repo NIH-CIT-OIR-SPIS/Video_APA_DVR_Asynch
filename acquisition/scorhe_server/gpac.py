@@ -155,7 +155,7 @@ def makeMP4(sourceFilename: str,
             fps: int,
             width: int,
             height: int,
-            delete: bool=False,
+            delete: bool=True,
             doConvert: bool=True,
             ) -> None:
     """Convert source to MP4 and remove old version
